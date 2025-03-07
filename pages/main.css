@@ -1,0 +1,85 @@
+.menubutton{
+    border-color: deeppink;
+    border-style: inset;
+    border-radius: 10px;
+    border-width: 5px;
+    height: 50px;
+    width: 212.9px;
+    background-color: transparent;
+    background: linear-gradient(to right, green, orange);/*створюємо градієнтний окрас бекграунду*/
+    -webkit-background-clip: text; /*додаємо параметр додає текст з фоном бекграунду*/
+    -webkit-text-fill-color: transparent; /* параметр, що робить текст прозорим */
+    color: ghostwhite;
+    font-family: "Apple Chancery", cursive;
+    font-size: 125%;
+}
+.menuhome{
+    border-color: gold;
+    border-style: inset;
+    border-radius: 10px;
+    border-width: 5px;
+    height: 150%;
+    width: 14.06%;
+    background-color: transparent;
+    background: linear-gradient(to right, gold, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Apple Chancery", cursive;
+    font-size: 125%;
+
+}
+.menudiv{
+    border-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 50px;
+    width: 98.499vw;
+}
+.body{
+    background: linear-gradient(to bottom right, blue, 50%, violet);
+    background-attachment: fixed; /*робить зобрадення не рухомим при прокручуванні*/
+    background-size: cover;/*розтягує зображення на весь екран, контейнер*/
+    background-repeat: no-repeat;
+    height: 100vh;
+/*висота вікна браузера, нижче є ширина*/
+    width: 100vw;
+    margin: 0;
+}
+.texth1{
+    text-align: center;
+    font-family:"Lucida Calligraphy", cursive;
+    text-shadow:
+            1px 1px 0 ghostwhite,
+            -1px 1px 0 ghostwhite,
+            1px -1px 0 ghostwhite,
+            -1px -1px 0 ghostwhite;
+}
+.texth{
+    color: chocolate;
+    font-family: "URW Palladio", serif;
+    font-style: oblique;
+    text-shadow:
+            1px 1px 0 ghostwhite,
+            -1px 1px 0 ghostwhite,
+            1px -1px 0 ghostwhite,
+            -1px -1px 0 ghostwhite;
+}
+.textp{
+    color: ghostwhite;
+    text-align: justify;
+    font-size: 150%;
+    font-family: system-ui;
+    Font-style: italic;
+}
+.textpre{
+    color: ghostwhite;
+    text-align: justify;
+    font-size: 150%;
+    font-family: "URW Palladio", serif;
+    font-style: oblique;
+}
+.images{
+    height: 25%;
+    width: 25%;
+}

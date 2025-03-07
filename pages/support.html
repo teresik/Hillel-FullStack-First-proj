@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="support.css">
+</head>
+<body class="body">
+    <div>
+        <h1 class="texth1">Support</h1>
+        <div class="menudiv">
+
+            <button class="menubutton" type="button" onclick="window.location.href='about.html'">About</button>
+            <button class="menubutton" type="button" onclick="window.location.href='contacts.html'">Contacts</button>
+            <button class="menubutton" type="button" onclick="window.location.href='gallery.html'">Gallery</button>
+            <button class="menuhome" type="button" onclick="window.location.href='../index.html'">Home</button>
+            <button class="menubutton" type="button" onclick="window.location.href='loremipsum.html'">Lorem Ipsum</button>
+            <button class="menubutton" type="button" onclick="window.location.href='support.html'">Support</button>
+            <button class="menubutton" type="button" onclick="window.location.href='articles.html'">Articles</button>
+
+        </div>
+        <div class="regdiv">
+            <form onsubmit="window.location.href='contacts.html'; return false;"> <!--Window.location дозволяє керувати поточною URL- адресою і у цбому випадку ми її змінюємо на локальну
+                також Return false забороняє повторне оновлення сторінки-->
+                <label for="name" class="reg">Name:</label><br>
+                <input type="text" id="name" name="name" class="reg"><br>
+
+                <label for="email" class="reg">Email:</label><br>
+                <input type="email" id="email" name="email" class="reg"><br>
+
+                <label for="message" class="reg">Text:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" class="reg">Whrite your message here
+                </textarea><br>
+                <br>
+                <input type="submit" value="Send" class="reg">
+
+                <!-- Тут я пробував всеж виконати цю функцію через функції батону -->
+
+                <!-- <a href="contacts.html" target="_self"><button type="submit">Send and return</button></a> -->
+                 <!-- <button type="submit" onclick="window.location.href='contacts.html'">Send and return</button> -->
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
